@@ -1,3 +1,20 @@
+# 3.19.3 (12.12.2025)
+
+## Changes
+- Use PowerShell as default shell on Windows when available.
+- List built-in PowerShell on Windows in the available shells.
+
+# 3.19.2 (10.12.2025)
+
+## Features
+- Add Templates and Example plugins development with C/C++.
+- Enabled support for complex shell commands, including piping and inline environment variables.
+
+## Changes
+- Resolved Antivirus false positives by checking for well-known shells without execution, instead of executing all installed shells at startup.
+- Improved error reporting to display native shell errors instead of generic IO failures.
+- Fix used counter in filter presets view
+
 # 3.19.1 (13.10.2025)
 
 ## Fixes
